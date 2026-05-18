@@ -3,7 +3,8 @@
     // base ubuntu
     // "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
     // default linux
-    "image": "mcr.microsoft.com/devcontainers/universal:2",
+    // "image": "mcr.microsoft.com/devcontainers/universal:2",
+    "image": "mcr.microsoft.com/devcontainers/universal:linux",
     // "features": {
     //   // nodejs
     //   "ghcr.io/devcontainers/features/node:1": {
