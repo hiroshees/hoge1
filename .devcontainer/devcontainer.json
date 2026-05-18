@@ -1,10 +1,11 @@
 {
     "name": "my-devcontainer",
-    // base ubuntu
+    // base ubuntu 結局遅い
     // "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
-    // default linux
+    // default linux これも結局遅い
     // "image": "mcr.microsoft.com/devcontainers/universal:2",
-    "image": "mcr.microsoft.com/devcontainers/universal:linux",
+    // "image": "mcr.microsoft.com/devcontainers/universal:linux",
+    "image": "mcr.microsoft.com/devcontainers/universal:5",
     // nodejs 悪くない、まあまあ速い
     // "image": "mcr.microsoft.com/devcontainers/javascript-node:24",
     // "features": {
