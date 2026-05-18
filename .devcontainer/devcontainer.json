@@ -4,8 +4,9 @@
     // "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
     // default linux
     // "image": "mcr.microsoft.com/devcontainers/universal:2",
-    //"image": "mcr.microsoft.com/devcontainers/universal:linux",
-    "image": "mcr.microsoft.com/devcontainers/javascript-node:24",
+    "image": "mcr.microsoft.com/devcontainers/universal:linux",
+    // nodejs 悪くない、まあまあ速い
+    // "image": "mcr.microsoft.com/devcontainers/javascript-node:24",
     // "features": {
     //   // nodejs
     //   "ghcr.io/devcontainers/features/node:1": {
