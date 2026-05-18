@@ -1,13 +1,13 @@
 {
     "name": "my-devcontainer",
-    // base ubuntu 結局遅い
-    // "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
-    // default linux これも結局遅い
-    // "image": "mcr.microsoft.com/devcontainers/universal:2",
+    // ユニバーサルデフォルトイメージ
     // "image": "mcr.microsoft.com/devcontainers/universal:linux",
-    "image": "mcr.microsoft.com/devcontainers/universal:5",
-    // nodejs 悪くない、まあまあ速い
+    // 2026年5月現在最新のユニバーサルデフォルトイメージ
+    // "image": "mcr.microsoft.com/devcontainers/universal:5",
+    // Nodejs24のイメージ
     // "image": "mcr.microsoft.com/devcontainers/javascript-node:24",
+    // 備考: imageを省略することで、Codespacesデフォルトの最新イメージ（現在はv5）が適用
+    // featuresを利用するとCodespaceの起動が遅くなるので利用しません
     // "features": {
     //   // nodejs
     //   "ghcr.io/devcontainers/features/node:1": {
@@ -28,8 +28,7 @@
     //     "packages": "curl,wget,git,jq,ca-certificates,build-essential"
     //   },
     // },
-    // "postCreateCommand": "/bin/sh .devcontainer/postCreateCommand.sh",
-    // "postStartCommand": "/bin/sh .devcontainer/postStartCommand.sh",
+    // 拡張機能の自動インストールだけを共通化するためにこのファイルを配置します
     "customizations": {
         "vscode": {
             "settings": {},
