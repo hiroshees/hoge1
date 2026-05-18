@@ -1,6 +1,9 @@
 {
     "name": "node-devcontainer",
-    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    // base ubuntu
+    // "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    // default linux
+    "image": "mcr.microsoft.com/devcontainers/universal:2",
     // "features": {
     //   // nodejs
     //   "ghcr.io/devcontainers/features/node:1": {
@@ -21,8 +24,8 @@
     //     "packages": "curl,wget,git,jq,ca-certificates,build-essential"
     //   },
     // },
-    // "postCreateCommand": "/bin/sh .devcontainer/postCreateCommand.sh",
-    // "postStartCommand": "/bin/sh .devcontainer/postStartCommand.sh",
+    "postCreateCommand": "/bin/sh .devcontainer/postCreateCommand.sh",
+    "postStartCommand": "/bin/sh .devcontainer/postStartCommand.sh",
     "customizations": {
         "vscode": {
             "settings": {},
