@@ -5,6 +5,7 @@
     // default linux
     // "image": "mcr.microsoft.com/devcontainers/universal:2",
     //"image": "mcr.microsoft.com/devcontainers/universal:linux",
+    "image": "mcr.microsoft.com/devcontainers/javascript-node:24",
     // "features": {
     //   // nodejs
     //   "ghcr.io/devcontainers/features/node:1": {
